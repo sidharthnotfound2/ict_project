@@ -5,8 +5,8 @@ A full-stack, production-ready web application built with the **MERN** stack (Mo
 ---
 
 ## 🚀 Live Demo & Repository Links
-- **Frontend Live URL (Vercel):** `https://<your-vercel-app-name>.vercel.app` *(Update after deploying)*
-- **Backend API Live URL (Render):** `https://<your-render-service-name>.onrender.com` *(Update after deploying)*
+- **Frontend Live URL (Vercel):** [https://ict-project-sooty.vercel.app](https://ict-project-sooty.vercel.app)
+- **Backend API Live URL (Render):** [https://movie-watchlist-backend-1bm6.onrender.com](https://movie-watchlist-backend-1bm6.onrender.com)
 - **GitHub Repository:** [https://github.com/sidharthnotfound2/ict_project.git](https://github.com/sidharthnotfound2/ict_project.git)
 
 ---
