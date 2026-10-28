@@ -17,6 +17,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
+  'https://ict-project-sooty.vercel.app',
   process.env.CLIENT_URL
 ].filter(Boolean);
 
@@ -25,7 +26,11 @@ app.use(
     origin: function (origin, callback) {
       // allow requests with no origin (like mobile apps, curl, or Postman)
       if (!origin) return callback(null, true);
-      if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.includes('*')) {
+      if (
+        allowedOrigins.indexOf(origin) !== -1 ||
+        allowedOrigins.includes('*') ||
+        /\.vercel\.app$/.test(origin)
+      ) {
         return callback(null, true);
       }
       return callback(null, true); // Permissive for evaluation and smooth deployment
