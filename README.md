@@ -206,12 +206,10 @@ npm run dev
 ## 📸 Screenshots
 
 ### 1. Main Watchlist Dashboard (Cards, Filters & Stats)
-![Dashboard View](https://raw.githubusercontent.com/sidharthnotfound2/ict_project/main/screenshots/dashboard.png)
-*(Placeholder: add screenshot showing Movie Cards Grid, Real-Time Stats Dashboard, and Filter Bar)*
+![Dashboard View](screenshots/Dashboard.png)
 
 ### 2. Status Workflow & Recommendation Modal
-![Watch Next Modal & Rating Prompt](https://raw.githubusercontent.com/sidharthnotfound2/ict_project/main/screenshots/watch_next_modal.png)
-*(Placeholder: add screenshot showing 'What should I watch next?' recommendation and Rating prompt)*
+![Watch Next Modal & Rating Prompt](screenshots/watch_next_modal.png)
 
 ---
 
