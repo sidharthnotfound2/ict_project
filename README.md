@@ -182,8 +182,8 @@ npm run dev
    - **Instance Type:** `Free`
 5. Under **Environment Variables**, add:
    - `PORT`: `5000`
-   - `MONGODB_URI`: `<Your MongoDB Connection String>`
-   - `CLIENT_URL`: `https://<your-vercel-app>.vercel.app` (Can temporarily use `*` or localhost, then update once frontend is deployed)
+   - `MONGODB_URI`: `mongodb+srv://sidharth225787_db_user:7KItwWBbVCD5vxsJ@cluster0.bx8ibu7.mongodb.net/movie_watchlist?retryWrites=true&w=majority`
+   - `CLIENT_URL`: `https://ict-project-sooty.vercel.app`
 6. Click **Deploy Web Service**.
 > **Note on Free-tier Cold Starts:** Free Render services spin down after 15 minutes of inactivity and may take 30–50 seconds to respond on initial cold wake-up.
 
@@ -197,9 +197,9 @@ npm run dev
    - **Build Command:** `npm run build`
    - **Output Directory:** `dist`
 5. Under **Environment Variables**, add:
-   - `VITE_API_URL`: `https://<your-render-service-name>.onrender.com/api`
+   - `VITE_API_URL`: `https://movie-watchlist-backend-1bm6.onrender.com`
 6. Click **Deploy**.
-7. Once deployed, copy your Vercel URL and update `CLIENT_URL` in your Render backend settings.
+7. Once deployed, verify `CLIENT_URL` in your Render backend settings is set to `https://ict-project-sooty.vercel.app`.
 
 ---
 
